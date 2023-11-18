@@ -1,0 +1,103 @@
+body
+{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+    background-image: url(background.jpeg);
+    background-size:cover;
+    background-position:center;
+
+}
+.sign-up-form
+{
+    width:300px;
+    box-shadow:0 0 3px 0 rgba(0,0,0,0.3);
+    background: #fff;
+    padding:20px;
+    margin:8% auto 0;
+    text-align: center;
+    border-radius: 50px;
+}
+.sign-up-form h1
+{
+color: #1c8adb;
+margin-bottom: 30px;
+border: none;
+
+}
+.input-box
+{
+   border-radius: 20px;
+   padding:10px;
+   margin:10px 0;
+   width:100%;
+   border:1px solid #999;
+   outline:none;
+}
+.sign-btn
+{
+    border-radius: 30px;
+  width: 84px;
+  height: 84px;
+  flex-shrink: 0;
+  border: none;
+ 
+}
+.btn-box-style{
+    width: 307px;
+    height: 351px;
+    flex-shrink: 0;
+    border-radius: 30px;
+    background: #FFF;
+    padding: 26px;
+}
+.flex
+{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    width:100%;
+
+}
+.elements{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.element1{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header1
+{
+    display:flex;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 96px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 729px;
+    height: 116px;
+    justify-content: center;
+    align-self: center;
+
+}
+.header2
+{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 513px;
+    height: 44px;
+}
